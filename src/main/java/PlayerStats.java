@@ -6,7 +6,7 @@ public class PlayerStats {
     Boolean alive;
     Integer health;
     String playerName;
-    int attack; // Ensure to use lowercase for variable names
+    int attack; 
     int defense;
 
     // Constructor
@@ -21,7 +21,7 @@ public class PlayerStats {
         this.attack = attack;
     }
 
-    // Getters
+    
     public Integer getHappiness() {
         return happiness;
     }
@@ -62,7 +62,7 @@ public class PlayerStats {
         return attack;
     }
 
-    // Setter for alive status
+    
     public void setPlayerAlive(Boolean alive) {
         this.alive = alive;
     }
